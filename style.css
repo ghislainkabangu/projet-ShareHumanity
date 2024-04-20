@@ -262,7 +262,7 @@ footer {
 
 @media screen and (max-width:500px) {
     header .banière_accueil h1 {
-        padding-top: 100px;
+        padding-top: 10px;
         font-size: 60px;
     }
     .partenaire img {
