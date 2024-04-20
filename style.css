@@ -11,11 +11,13 @@ header .logo {
     padding: 5px;
     padding-bottom: 0px;
 }
-header .logo p{
+
+header .logo p {
     float: right;
     font-style: italic;
     color: royalblue;
 }
+
 header .logo img {
     width: 50px;
 }
@@ -203,7 +205,7 @@ footer {
         padding-top: 25px;
         font-size: 60px;
     }
-    
+
     main {
         width: 70%;
     }
@@ -269,6 +271,7 @@ footer {
         padding-top: 5px;
         font-size: 45px;
     }
+
     .partenaire img {
         width: 80px;
     }
