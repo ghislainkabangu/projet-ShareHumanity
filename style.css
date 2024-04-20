@@ -1,0 +1,187 @@
+body {
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    margin: auto;
+}
+
+header .logo {
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header .banière_accueil {
+    text-align: center;
+    padding: 10px;
+    background-image: url("gallerie/group-people-volunteering-foodbank-poor-people.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    animation: animFont 5s alternate infinite;
+}
+
+@keyframes animFont {
+    from {
+        background-image: url("gallerie/group-people-volunteering-foodbank-poor-people.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    to {
+        background-image: url("gallerie/different-people-doing-volunteer-work.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+header .banière_accueil h1 {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 45px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .banière_accueil h3 {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/****************************main********************************************/
+main {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    background-color: royalblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+main h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+main p {
+    text-align: justify;
+}
+
+/******************************sectipon**************************************/
+section {
+    padding: 0px;
+}
+
+section article {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section article div {
+    flex-basis: 47%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.text_descri {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.text_descri h4 {
+    font-size: 25px;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_descri p {
+    text-align: justify;
+    font-size: large;
+    color: black;
+}
+
+
+
+.image_ilustration img {
+    width: 100%;
+    height: 350px
+}
+
+/***********************************aside***********************************/
+aside {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+aside h3 {
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/******************media*************/
+@media screen and (max-width:950px) {
+    main {
+        width: 70%;
+    }
+
+    section article div {
+        flex-basis: 90%;
+    }
+
+    .un {
+        order: 1;
+    }
+
+    .deux {
+        order: 2;
+    }
+
+    .trois {
+        order: 3;
+    }
+
+    .quatre {
+        order: 4;
+    }
+
+    .cinq {
+        order: 5;
+    }
+
+    .sixe {
+        order: 6;
+    }
+
+    .sept {
+        order: 7;
+    }
+
+    .huit {
+        order: 8;
+    }
+
+    .neuf {
+        order: 9;
+    }
+
+    .dix {
+        order: 10;
+    }
+}
