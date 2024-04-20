@@ -198,7 +198,6 @@ footer {
     header .banière_accueil h1 {
         padding-top: 25px;
         font-size: 60px;
-        font-family: Arial, Helvetica, sans-serif;
     }
     
     main {
@@ -262,6 +261,10 @@ footer {
 }
 
 @media screen and (max-width:500px) {
+    header .banière_accueil h1 {
+        padding-top: 10px;
+        font-size: 60px;
+    }
     .partenaire img {
         width: 80px;
     }
