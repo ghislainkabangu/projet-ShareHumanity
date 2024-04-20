@@ -195,6 +195,12 @@ footer {
 }
 
 @media screen and (max-width:950px) {
+    header .banière_accueil h1 {
+        padding-top: 25px;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     main {
         width: 70%;
     }
